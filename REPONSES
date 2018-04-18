@@ -1,1 +1,10 @@
+P1.1 Comment représentez-vous ces vecteurs ? Comment sont-ils organisés : quels attributs ? quelles méthodes ? quels droits d'accès ?
+
+The vectors are represented using a class Vecteur.
+An attribute of vector of real numbers ( vector<double> ) was used to represent the vector itself, as we do not know it's dimensions. This attribute was set private, to have more control over this variable outside of the class.
+The methods were set as public, because these methodes will definitely be used outside of the class, and thus, it would not make sense to set them as private (no access outside of class).
+
+P1.2 Quel choix avez vous fait pour les opérations entre vecteurs de dimensions différentes ?
+
+We used the throw of exceptions for operations between different dimensions. For these operations, a message would be printed saying "Erreur (operation) !"
 
